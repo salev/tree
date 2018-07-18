@@ -30,7 +30,7 @@ import {Component, EventEmitter, Input, Output} from '@angular/core';
 
 })
 
-export class LvTreeComponent {
+export class TreeComponent {
   @Input() items: Object[];
   @Output() change = new EventEmitter<any>();
 

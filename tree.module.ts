@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import {CommonModule} from "@angular/common";
-import {LvTreeComponent} from "./tree.component";
+import {TreeComponent} from "./tree.component";
 
 @NgModule({
   imports: [CommonModule],
-  declarations: [LvTreeComponent],
-  exports: [LvTreeComponent]
+  declarations: [TreeComponent],
+  exports: [TreeComponent]
 })
-export class LvTreeModule { }
+export class TreeModule { }

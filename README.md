@@ -16,7 +16,7 @@ new Tree(click_callback_function)
 ```js
 new Leaf(name, data_object, is_branch, optional_fa_icon)
 ```
-- inseart
+- inseart leaves into the tree
 ```js
 tree_object.insertLeaves(leaves_set, parent_leaf)
 ```

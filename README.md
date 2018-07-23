@@ -2,7 +2,7 @@
 
 ### [Demo](https://salev.github.io/angular/slv-tree/)
 
-The __slv-tree__ view control represents structured data as a tree. All data is downloaded with help of Ajax requests.
+The __Tree View Control__ represents structured data as a tree. All data is downloaded with help of Ajax requests.
 
 Import __TreeModule__ into your (app) module to start using of the control.
 

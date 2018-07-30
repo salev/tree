@@ -1,4 +1,4 @@
-import {ILvLeaf, Leaf} from "./leaf";
+import {ISlvLeaf, Leaf} from "./leaf";
 
 export interface ILeafHandle {
   parent: ILeafHandle;
@@ -8,12 +8,12 @@ export interface ILeafHandle {
 }
 
 
-interface ILvTree {
-  items: Array<ILvLeaf>;
+interface ISlvTree {
+  items: Array<ISlvLeaf>;
   onClick: Function;
 }
 
-export class Tree implements ILvTree {
+export class Tree implements ISlvTree {
 
   treeData = [];
   selectedLeaf: Leaf = null;
@@ -22,7 +22,7 @@ export class Tree implements ILvTree {
   constructor(private clickCallback: {(data: Object, isVisited: boolean, leaf: Leaf)}) {}
 
 
-  // ILvTree's field
+  // ISlvTree's field
   get items() {
     return this.treeData;
   }

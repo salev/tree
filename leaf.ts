@@ -1,21 +1,21 @@
 import {ILeafHandle, Tree} from "./tree";
 
 /**
- * ILvLeaf
+ * ISlvLeaf
  */
-export interface ILvLeaf {
+export interface ISlvLeaf {
   content: string; // example: <span>Child</span>
   expanded: boolean;
-  children?: Array<ILvLeaf>;
+  children?: Array<ISlvLeaf>;
 }
 
 
 /**
  * Leaf
  */
-export class Leaf implements ILvLeaf, ILeafHandle {
+export class Leaf implements ISlvLeaf, ILeafHandle {
 
-  // ILvLeaf's fields
+  // ISlvLeaf's fields
   content;
   expanded = false;
   children: Array<Leaf> = null;

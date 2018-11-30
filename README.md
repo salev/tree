@@ -4,7 +4,7 @@
 
 The __Tree View Control__ represents structured data as a tree. All data is downloaded with help of Ajax requests.
 
-1. Import __TreeModule__ into your (app) module to start using of the control.
+1. Import __TreeModule__ into your module to start using of the control.
 
 2. Build a tree data object in a component class. It takes 3 simple steps:
 

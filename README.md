@@ -22,3 +22,6 @@ tree_object.insertLeaves(leaves_set, parent_leaf)
 ```
 
 Then repeat creation of leaves with previously created leaf (branch) as a parent leaf.
+
+
+_This project is licensed under the terms of the MIT license._
